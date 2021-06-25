@@ -1,0 +1,45 @@
+Discord Botu Ekleme
+Discord'a girip sadece kendinizin olduğu bir kanal açın.
+Sonra tarayıcıya gidin ve şu linke tıklayın.
+https://discord.com/api/oauth2/authorize?client_id=815400066264858635&permissions=8&scope=bot
+Bu linkten onaylayıp kendi kanalınızı seçin ve bot kanalınıza eklensin.
+
+Pip ile kurulum yapacağız.
+Pip kullanmayı bilmiyorsanız,
+https://teknomain.com/pip-nedir-nasil-kurulur/
+
+pip kurulu ise ilk önce KURULUM.txt dosyasının olduğu klasörün içine 'Shift' tuşuna basılı tutarak 'Powershell penceresini burada aç' ya da 'Komut Istemi penceresini buraya aç' menüsüne tıklıyoruz ve aşağıdaki komutu yazıyoruz.
+
+"""
+pip install -r requirements.txt
+"""
+
+Kütüphanelerimiz kurulmuş oluyor.
+
+Sonrasında iki yeni komut ekranı açıyoruz, yukarıda anlattığım şekilde.
+Ekranlardan birinde;
+"""
+python bot.py
+"""
+
+diğerinde ise
+
+"""
+python manage.py runserver
+"""
+Soru eklemek için;
+http://127.0.0.1:8000/
+
+komutlarını çalıştırıyoruz ve botumuz hazır.
+
+!sorugetir
+!plakalar_sorugetir
+!kategori_sorugetir
+
+şeklinde çalışır siz kategori ekledikçe 3.komuttaki şekilde yazarsanız, yeni kategori soruları gelecektir.
+
+
+Soru ve kategori silme işlemleri ise Admin sayfasından yapılabiliyor.
+http://127.0.0.1:8000/admin
+Kullanıcı adı : admin
+Şifre : admin123
