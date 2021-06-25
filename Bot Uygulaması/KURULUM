@@ -5,10 +5,8 @@ https://discord.com/api/oauth2/authorize?client_id=815400066264858635&permission
 Bu linkten onaylayıp kendi kanalınızı seçin ve bot kanalınıza eklensin.
 
 Pip ile kurulum yapacağız.
-Pip kullanmayı bilmiyorsanız,
-https://teknomain.com/pip-nedir-nasil-kurulur/
 
-pip kurulu ise ilk önce KURULUM.txt dosyasının olduğu klasörün içine 'Shift' tuşuna basılı tutarak 'Powershell penceresini burada aç' ya da 'Komut Istemi penceresini buraya aç' menüsüne tıklıyoruz ve aşağıdaki komutu yazıyoruz.
+
 
 """
 pip install -r requirements.txt
@@ -16,7 +14,7 @@ pip install -r requirements.txt
 
 Kütüphanelerimiz kurulmuş oluyor.
 
-Sonrasında iki yeni komut ekranı açıyoruz, yukarıda anlattığım şekilde.
+Sonrasında iki yeni komut ekranı açıyoruz
 Ekranlardan birinde;
 """
 python bot.py
